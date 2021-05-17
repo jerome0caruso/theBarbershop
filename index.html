@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+    <div class="mNav">
+        <i id="mNavOpen" class="fas fa-bars"></i>
+        <i id="mNavClose" class="fas fa-cut"></i>
+    </div>
+    <div>
+    <div class="mobileLinks">
+        <ul>
+            <li><a href="/" class="nav__link" data-link>Dashboard</a></li>
+            <li><a href="/services" class="nav__link" data-link>Services</a></li>
+            <li><a href="/contact" class="nav__link" data-link>Contact</a></li>
+        </ul>
+    </div>
+    <nav class="nav">
+        <ul>
+            <li><a href="/" class="nav__link" data-link>Dashboard</a></li>
+            <li><a href="/services" class="nav__link" data-link>Services</a></li>
+            <li><a href="/contact" class="nav__link" data-link>Contact</a></li>
+        </ul>
+    </nav>
+    <div id="app"></div>
+    <script type="module" src="/static/js/index.js"></script>
+</body>
+</html>
